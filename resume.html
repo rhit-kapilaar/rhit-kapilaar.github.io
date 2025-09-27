@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+        <title>Avi's Portfolio - Resume</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <!--Sources I used for help with nav: https://www.w3schools.com/css/css_navbar_horizontal.asp and https://wweb.dev/resources/navigation-generator?utm_source=chatgpt.com
+                Mostly it was the W3schools link however which provided kind of template code and css for Navbar.
+                -->
+                <ul>
+                    <h1 class="navbar-heading">Avi's Portfolio</h1>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="#">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Resume</h1>
+
+
+                <!-- Adding all Technologies which I know with paragraph tags that contain additional description-->
+                <section>
+                    <h2>Technologies</h2>
+                    <ul style="display: block; list-style-type: circle; background-color: white; color: black;" id="tech">
+                        <li style="color: black;">Java<p>: Java is a programming language maintained by Oracle. It is one of the most widely used programming languages</p></li>
+                        <li style="color: black;">Python<p>: Python is an OOP Programming language which is used for developing various applications, server programs, backend codes, scrapers etc.</p></li>
+                        <li style="color: black;">C<p>: C is an old programming language which is still used in many applications. It is not an OOP language.</p></li>
+                        <li style="color: black;">Flask<p>: Flask is a popular framework of Python used to develop and run RESTful API applications.</p></li>
+                        <li style="color: black;">JavaScript<p>: JavaScript is a lightweight, versatile programming language that adds interactivity, dynamic behavior, and logic to web pages.</p></li>
+                        <li style="color: black;">HTML<p>: HTML (HyperText Markup Language) is the standard language used to structure and display content on the web.</p></li>
+                        <li style="color: black;">CSS<p>: CSS (Cascading Style Sheets) is the language used to style and visually design HTML elements on a web page.</p></li>
+                        <li style="color: black;">Falcon<p>: Falcon is a high-performance Python web framework designed for building fast, scalable, and RESTful APIs and applications.</p></li>
+                        <li style="color: black;">Elasticsearch<p>: Elasticsearch is a distributed, open-source search and analytics engine used for storing, searching, and analyzing large volumes of data in near real time.</p></li>
+                        <li style="color: black;">Quartus Prime<p>: Quartus Prime is Intel’s FPGA design software suite used for hardware design, simulation, and implementation of digital circuits.</p></li>
+                        <li style="color: black;">Verilog<p>Verilog is a hardware description language (HDL) used to model, design, and simulate digital circuits and systems.</p></li>
+                    </ul>
+                </section>
+
+                <!-- Education Section-->
+                 <!-- Making a small table for the education section-->
+                <section>
+                    <h2>Education</h2>
+                    <table border="1" cellpadding="8" cellspacing="0">
+                    <thead>
+                        <tr>
+                        <th>Institution</th>
+                        <th>Degree</th>
+                        <th>Year</th>
+                        <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>Rose-Hulman Institute of Technology, Terre Haute, IN</td>
+                        <td>Bachelor of Science, Computer Science</td>
+                        <td>May 2028</td>
+                        <td>GPA: 3.68/4.0<br>
+                            Related Courses: OOP, Data Structures & Algorithm Analysis, Intro to Computer Systems, Digital Systems, AI Revolution, Systems Programming, Web Programming, Calc II & III, Differential Equations I, Physics I & II
+                        </td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </section>
+
+                <!-- Work Experience -->
+                 <!--Maing a table for the work experience section (in my opinion better than unordered list cause shows clearly each experience as a highlightale row)-->
+                <section>
+                    <h2>Work Experience</h2>
+                    <table border="1" cellpadding="8" cellspacing="0">
+                    <thead>
+                        <tr>
+                        <th>Organization</th>
+                        <th>Role</th>
+                        <th>Date</th>
+                        <th>Responsibilities</th>
+                        </tr>
+                    </thead>
+                    <tbody id="work-experience">
+                        <tr>
+                        <td>Lyxel & Flamingo (L&F), Gurgaon, India</td>
+                        <td>Product Development Intern</td>
+                        <td>July 2025</td>
+                        <td>
+                            Built a Chrome Extension with interactive dashboards for Amazon availability data;<br>
+                            Developed 6 REST API endpoints in Python (Falcon) + Elasticsearch;<br>
+                            Delivered product in 4 weeks, collaborated on debugging, feature refinement, and integration.
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>SeniorWorld, Gurgaon, India</td>
+                        <td>Student Intern</td>
+                        <td>July 2023</td>
+                        <td>
+                            Awarded Best Student Intern (Summer 2023);<br>
+                            Developed and delivered presentations & online sessions for seniors on using digital payments and WhatsApp.
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>Sanshil Foundation – Bagiya, Gurgaon, India</td>
+                        <td>Volunteer Math Teacher</td>
+                        <td>June 2023</td>
+                        <td>
+                            Taught 40–50 underprivileged Grade 6–7 students foundational math (integers, primes, geometry);<br>
+                            Prepared and graded class tests; ran Q&A/doubt-clearing sessions.
+                        </td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </section>
+                </section>
+        </main>
+
+        <footer>
+            <!--Sources I used for inspiration for footer: https://www.geeksforgeeks.org/html/html5-footer-tag/
+            https://www.geeksforgeeks.org/html/html-course-building-footer/ and https://mimo.org/glossary/html/footer-->
+            <ul>
+                <li>&copy; 2025 My Portfolio</li>
+                <li><p>Email: kapilaar@rose-hulman.edu</p></li>
+                <li><a href="https://www.linkedin.com/in/avikapila">LinkedIn</a></li>
+                <li><a href="https://www.github.com/rhit-kapilaar">Github Page</a></li>
+                <li><a href="https://app.joinhandshake.com/profiles/rj9gsb">Handshake</a></li>
+            </ul>
+        </footer>
+    </body>
+    
+</html>
